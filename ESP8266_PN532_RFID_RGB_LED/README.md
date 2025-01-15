@@ -8,15 +8,15 @@ Flash your ESP8266 with tasmota-sensor.bin. Reboot and connect to your Wifi.
 ### Step 2
 Open the Web UI and go to Configuration > Module > Generic(18)
 
-RX GPIO3	LedLink\
+RX GPIO3	LedLink (for MQTT STatus)\
 D2 GPIO4	PN532 Rx\
 D1 GPIO5	PN532 Tx\
-D6 GPIO12	Relay1\
-D7 GPIO13	Relay2\
-D5 GPIO14	Relay3\
+D6 GPIO12	Relay1 (not relevant here)\
+D7 GPIO13	Relay2 (not relevant here)\
+D5 GPIO14	Relay3 (not relevant here)\
 and save your configuration.
 ### Step 3
-In the Web UI got to Configuration > MQTT and set up MQTT.
+In the Web UI go to Configuration > MQTT and set up MQTT.
 
 #### Done!
 You can now communicate with your ESP8266 via MQTT and get Card IDs (UID) from your PN532.
