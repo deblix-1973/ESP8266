@@ -1,6 +1,6 @@
 # ESP8266_PN532_RFID
 ## PN532 RFID Card Reader with status LED
- ![ESP8266_PN532_RGB_LED](https://github.com/user-attachments/assets/2d58c870-f208-4522-9f30-01b68ebd8101)
+![ESP8266_PN532_RGB_LED_](https://github.com/user-attachments/assets/56326733-48b0-4a3a-93d6-238d36900ec3)
 ## How To
 
 ### Step 1
@@ -8,12 +8,12 @@ Flash your ESP8266 with tasmota-sensor.bin. Reboot and connect to your Wifi.
 ### Step 2
 Open the Web UI and go to Configuration > Module > Generic(18)
 
-RX GPIO3	LedLink (for MQTT STatus)\
-D2 GPIO4	PN532 Rx\
-D1 GPIO5	PN532 Tx\
-D6 GPIO12	Relay1 (not relevant here)\
-D7 GPIO13	Relay2 (not relevant here)\
-D5 GPIO14	Relay3 (not relevant here)\
+GPIO03 > LedLink (for MQTT Status)\
+GPIO04 > PN532 Rx\
+GPIO05 > PN532 Tx\
+GPIO12 > Relay1 (not relevant here - used for other purpose in my project)\
+GPIO13 > Relay2 (not relevant here - used for other purpose in my project)\
+GPIO14 > Relay3 (not relevant here - used for other purpose in my project)\
 and save your configuration.
 ### Step 3
 In the Web UI go to Configuration > MQTT and set up MQTT.
