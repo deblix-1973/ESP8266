@@ -8,8 +8,8 @@ Flash your ESP8266 with tasmota-sensor.bin. Reboot and connect to your Wifi.
 ### Step 2
 Open the Web UI and go to Configuration > Module > Generic(18)
 
-3.3V   > VCC
-GND    > GND
+3.3V   > VCC\
+GND    > GND\
 GPIO03 > LedLink (for MQTT Status)\
 GPIO04 > PN532 Rx\
 GPIO05 > PN532 Tx\
