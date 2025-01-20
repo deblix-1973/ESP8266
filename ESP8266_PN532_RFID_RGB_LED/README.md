@@ -22,4 +22,5 @@ In the Web UI go to Configuration > MQTT and set up MQTT.
 
 #### Done!
 You can now communicate with your ESP8266 via MQTT and get Card IDs (UID) from your PN532.
-
+#### Config
+'''{"NAME":"PN532","GPIO":[1,1,1,544,2880,2848,1,1,224,225,226,1,1,1],"FLAG":0,"BASE":18}'''
