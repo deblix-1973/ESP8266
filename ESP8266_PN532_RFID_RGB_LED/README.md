@@ -1,4 +1,4 @@
-# ESP8266 PN532_RFID
+# ESP8266 PN532 RFID
 ## PN532 RFID Card Reader with status LED
 ![ESP8266_PN532_RGB_LED_](https://github.com/user-attachments/assets/56326733-48b0-4a3a-93d6-238d36900ec3)
 ## How To
